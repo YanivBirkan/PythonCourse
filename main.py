@@ -3,7 +3,7 @@ from moduls import functions
 import time
 now = time.strftime("%y-%m-%d %H:%M:%S")
 
-print("Time now: is" , now)
+print("Time now: is equal" , now)
 while True:
     user_action = input("Type add , show , edit ,complete or exit :")
     # remove spaceing
