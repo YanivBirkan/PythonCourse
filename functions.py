@@ -8,3 +8,10 @@ def get_todos(filepath=FILEPATH):
 def write_todos(todos_arg,filepath=FILEPATH):
     with open(filepath, "w") as file:
         file.writelines(todos_arg)
+
+def get_todos_forGUI():
+    options_list = []
+    todos = get_todos("todos.txt")
+    for todo in todos:
+        options_list.append(todo)
+    return options_list

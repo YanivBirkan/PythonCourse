@@ -1,6 +1,7 @@
 # from functions import *
-from moduls import functions
+import functions
 import time
+import gui
 now = time.strftime("%y-%m-%d %H:%M:%S")
 
 print("Time now: is equal" , now)
@@ -12,7 +13,7 @@ while True:
         todo=user_action[4:]
         todos = functions.get_todos("todos.txt")
         print(f"todos list before: \n  {todos}")
-        todos.append(todo)
+        todos.append(f"{todo}\n")
         print(f"New todos : \n  {todos}")
         functions.write_todos(todos)
 
