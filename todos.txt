@@ -1,9 +1,6 @@
 aaa
 bbb
+{'-ADD_INPUT-': 'ccc', '-TODO_LIST-': []}
 ccc
+ddd
 eee
-fff
-ggg
-hhh
-iiii
-jjj
